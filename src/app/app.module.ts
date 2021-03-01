@@ -2,7 +2,7 @@ import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 
 @NgModule({
-    providers: [BrowserModule],
+    imports: [BrowserModule],
     declarations: [],
     bootstrap: [AppModule]
 })
